@@ -1,4 +1,4 @@
-package com.example.m7m8;
+package com.example.LoginArnau;
 
 import org.junit.Test;
 

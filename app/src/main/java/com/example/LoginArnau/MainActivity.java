@@ -1,4 +1,4 @@
-package com.example.m7m8;
+package com.example.LoginArnau;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -19,14 +19,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Here we create the id of the buttons, edittexts, textview so we cant use it in files.java
+        //Here we create the id of the buttons, edittexts, textview so we cant use it in files.java in our app
         Button btnSignIn = findViewById(R.id.btnSignIn);
         EditText txtUsername = findViewById(R.id.txtUsername);
         EditText txtPassword = findViewById(R.id.txtPassword);
         TextView ok = findViewById(R.id.ok);
         BottomNavigationView bottomNav = findViewById(R.id.main_menu);
 
-        bottomNav.setOnItemSelectedListener(item -> {
+        //Here we make that the bottom navigation down the app it works and you can actually pass to other pages
+        bottomNav.setOnNavigationItemSelectedListener(item -> {
             Fragment selectedFragment = null;
             switch (item.getItemId()){
                 case R.id.nav_home:
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         final Button login = findViewById(R.id.btnSignIn);
         login.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                if(txtUsername.getText().toString().equals("123")){
+                if(txtUsername.getText().toString().equals("admin")&&(txtPassword.getText().toString().equals("admin"))){
                     Log.i("Test", "Login correcte");
                     ok.setText("Login Correcte");
                 }else{

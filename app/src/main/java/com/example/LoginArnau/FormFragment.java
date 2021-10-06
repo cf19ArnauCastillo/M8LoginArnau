@@ -1,4 +1,4 @@
-package com.example.m7m8;
+package com.example.LoginArnau;
 
 import android.os.Bundle;
 
