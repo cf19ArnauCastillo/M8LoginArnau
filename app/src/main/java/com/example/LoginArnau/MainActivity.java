@@ -3,6 +3,7 @@ package com.example.LoginArnau;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -53,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 if(txtUsername.getText().toString().equals("admin")&&(txtPassword.getText().toString().equals("admin"))){
                     Log.i("Test", "Login correcte");
                     ok.setText("Login Correcte");
+                    //startActivity(new Intent(getApplicationContext(),HomeActivity.class));
                 }else{
                     Log.i("Test", "Login incorrecte");
                     ok.setText("Login Incorrecte");
