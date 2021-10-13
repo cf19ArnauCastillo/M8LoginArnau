@@ -25,27 +25,7 @@ public class MainActivity extends AppCompatActivity {
         EditText txtUsername = findViewById(R.id.txtUsername);
         EditText txtPassword = findViewById(R.id.txtPassword);
         TextView ok = findViewById(R.id.ok);
-        BottomNavigationView bottomNav = findViewById(R.id.main_menu);
 
-        //Here we make that the bottom navigation down the app it works and you can actually pass to other pages
-        bottomNav.setOnNavigationItemSelectedListener(item -> {
-            Fragment selectedFragment = null;
-            switch (item.getItemId()){
-                case R.id.nav_home:
-                    selectedFragment = new FragmentHome();
-                    break;
-
-                case R.id.nav_list:
-                    selectedFragment = new ListFragment();
-                    break;
-
-                case R.id.nav_add:
-                    selectedFragment = new FormFragment();
-                    break;
-            }
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
-            return true;
-        });
 
         //Here we create a function for the button "login" so when you login with your credentials it works
         final Button login = findViewById(R.id.btnSignIn);
@@ -54,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 if(txtUsername.getText().toString().equals("admin")&&(txtPassword.getText().toString().equals("admin"))){
                     Log.i("Test", "Login correcte");
                     ok.setText("Login Correcte");
+                    goToHomeActivity();
                     //startActivity(new Intent(getApplicationContext(),HomeActivity.class));
                 }else{
                     Log.i("Test", "Login incorrecte");
@@ -61,5 +42,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    public void goToHomeActivity() {
+        Intent intentHome = new Intent(this, HomeActivity.class);
+        startActivity(intentHome);
     }
 }
