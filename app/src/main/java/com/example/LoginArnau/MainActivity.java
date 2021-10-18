@@ -2,6 +2,7 @@ package com.example.LoginArnau;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.DividerItemDecoration;
 
 import android.content.Intent;
 import android.os.Bundle;
