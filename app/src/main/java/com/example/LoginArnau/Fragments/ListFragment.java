@@ -1,4 +1,4 @@
-package com.example.LoginArnau;
+package com.example.LoginArnau.Fragments;
 
 import android.os.Bundle;
 
@@ -10,6 +10,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.LoginArnau.R;
+import com.example.LoginArnau.RecyclerViewAdapter;
 
 import java.util.ArrayList;
 

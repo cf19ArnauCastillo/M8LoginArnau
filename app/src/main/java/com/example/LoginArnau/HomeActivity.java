@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 
+import com.example.LoginArnau.Fragments.FormFragment;
+import com.example.LoginArnau.Fragments.FragmentHome;
+import com.example.LoginArnau.Fragments.ListFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class HomeActivity extends AppCompatActivity {
