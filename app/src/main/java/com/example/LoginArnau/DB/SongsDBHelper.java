@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import com.example.LoginArnau.Model.Song;
-import com.example.LoginArnau.DB.SongsList.*;
+import com.example.LoginArnau.DB.SongsList.*;  //mira esto el miercoles
 
 public class SongsDBHelper extends SQLiteOpenHelper {
 
