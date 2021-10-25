@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,28 +14,39 @@
             android:id="@+id/editTextTextPersonName3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
             android:ems="10"
+            android:hint="Nombre Cancion"
             android:inputType="textPersonName"
-            android:text="Name"
-            tools:layout_editor_absoluteX="85dp"
-            tools:layout_editor_absoluteY="79dp" />
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/editTextTextPersonName4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
             android:ems="10"
+            android:hint="Nombre Artista"
             android:inputType="textPersonName"
-            android:text="Name"
-            tools:layout_editor_absoluteX="76dp"
-            tools:layout_editor_absoluteY="180dp" />
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="250dp"
+            android:backgroundTint="#FF0000"
             android:text="Button"
-            tools:layout_editor_absoluteX="141dp"
-            tools:layout_editor_absoluteY="358dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
