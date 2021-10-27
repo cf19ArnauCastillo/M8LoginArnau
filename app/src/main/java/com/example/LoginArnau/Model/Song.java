@@ -3,7 +3,9 @@ package com.example.LoginArnau.Model;
 public class Song {
     String Artista;
     String Nombre;
-    public Song() {
+
+    //esta mal
+    public Song(String s) {
         this.Artista = "";
         this.Nombre = "";
     }
@@ -11,7 +13,6 @@ public class Song {
     public String getArtista() {
         return Artista;
     }
-
     public void setArtista(String artista) {
         Artista = artista;
     }
@@ -19,7 +20,6 @@ public class Song {
     public String getNombre() {
         return Nombre;
     }
-
     public void setNombre(String nombre) {
         Nombre = nombre;
     }

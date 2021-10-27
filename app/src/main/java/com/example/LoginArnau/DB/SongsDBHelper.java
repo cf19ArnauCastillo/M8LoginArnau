@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import com.example.LoginArnau.Model.Song;
-import com.example.LoginArnau.DB.SongsList.*;  //mira esto el miercoles
+import com.example.LoginArnau.DB.SongsList.*;  //mira esto el miercolesxº
 
 public class SongsDBHelper extends SQLiteOpenHelper {
 
@@ -35,14 +35,14 @@ public class SongsDBHelper extends SQLiteOpenHelper {
         db.execSQL(SQL_CREATE_ENTRIES);
     }
 
-    public void insertSong(SQLiteDatabase db, Song c){
+    public void insertSong(SQLiteDatabase db, Song s){
         //Check the bd is open
         if (db.isOpen()){
             //Creation of the register for insert object with the content values
             ContentValues values = new ContentValues();
 
             //Insert the contacts getting all values
-            values.put(SongsList.SongsEntry.COLUMN_NAME_TITLE, c.getNombre());
+            values.put(SongsList.SongsEntry.COLUMN_NAME_TITLE, s.getNombre());
 
             db.insert(SongsList.SongsEntry.TABLE_NAME, null, values);
         }else{
