@@ -4,7 +4,7 @@ App with works for make lists and forms of music, that requiere you to login wit
 User: admin 
 Password: admin
 
-# Task
+# Tasks
 
 In my project you'll be able to:
 
