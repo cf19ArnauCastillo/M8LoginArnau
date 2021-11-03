@@ -33,5 +33,5 @@ This project is developed with android studio (java). I've used this extra clase
 ## Finished / unfinished Tasks
 
 - [x] Splash screen
-[x] Bottom navigation
-    Local Storage Sqlite
+- [x] Bottom navigation
+- [x] Local Storage Sqlite
