@@ -40,10 +40,9 @@ public class SongsDBHelper extends SQLiteOpenHelper {
         if (db.isOpen()){
             //Creation of the register for insert object with the content values
             ContentValues values = new ContentValues();
-
+            Log.i("leer",s.getNombre());
             //Insert the contacts getting all values
             values.put(SongsList.SongsEntry.COLUMN_NAME_TITLE, s.getNombre());
-
             db.insert(SongsList.SongsEntry.TABLE_NAME, null, values);
         }else{
             Log.i("sql","Database is closed");

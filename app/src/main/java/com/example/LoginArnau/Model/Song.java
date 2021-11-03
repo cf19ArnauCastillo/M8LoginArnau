@@ -1,26 +1,25 @@
 package com.example.LoginArnau.Model;
 
 public class Song {
-    String Artista;
-    String Nombre;
+    public String artista;
+    public String nombre;
 
-    //esta mal
-    public Song(String s) {
-        this.Artista = "";
-        this.Nombre = "";
+    public Song(String nombre) {
+        this.artista = artista;
+        this.nombre = nombre;
     }
 
     public String getArtista() {
-        return Artista;
+        return artista;
     }
     public void setArtista(String artista) {
-        Artista = artista;
+        artista = artista;
     }
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
     public void setNombre(String nombre) {
-        Nombre = nombre;
+        nombre = nombre;
     }
 }

@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,12 +40,17 @@ public class FormFragment extends Fragment {
         // Inflate the layout for this fragment
         View formview = inflater.inflate(R.layout.fragment_form, container, false);
 
-        final Button button = formview.findViewById(R.id.btnGuardar);
+        //Declarations
+        Button button = formview.findViewById(R.id.btnGuardar);
+
+
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes on main thread after user presses button
                 EditText textsong = formview.findViewById(R.id.textsong);
+
                 Song s = new Song(textsong.getText().toString());
+                Log.i("aqui",textsong.getText().toString());
                 dbHelper.insertSong(db, s);
 
             }
