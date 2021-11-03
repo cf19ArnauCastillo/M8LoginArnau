@@ -10,3 +10,8 @@ In my project you'll be able to:
 
     Login
     Add elements to a local database
+
+# Screenshoot
+Bottom navigation
+
+The navigation of the application is done through the bottom navigation and the fragments
