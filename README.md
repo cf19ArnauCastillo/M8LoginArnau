@@ -1,8 +1,6 @@
 # M8Login
 
 App with works for save name and artist/s of songs, that requiere you to login with a username and password.
-User: admin 
-Password: admin
 
 ## Tasks
 
@@ -27,3 +25,13 @@ This project is developed with android studio (java). I've used this extra clase
 * Fragment Manager
 * Aquí cal especificar totes les classes utilitzades
 
+## App access
+
+* Username: admin
+* Password: admin
+
+## Finished / unfinished Tasks
+
+- [x] Splash screen
+[x] Bottom navigation
+    Local Storage Sqlite
