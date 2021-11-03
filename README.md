@@ -8,12 +8,12 @@ Password: admin
 
 In my project you'll be able to:
 
-    Login
-    Add elements to a local database
+* Login
+* Add elements to a local database
 
 # Screenshoots
 
-* Bottom navigation
+Bottom navigation
 
 The navigation of the application is done through the bottom navigation and the fragments
 
