@@ -1,6 +1,6 @@
 # M8Login
 
-App with works for make lists and forms of music, that requiere you to login with a username and password.
+App with works for save name and artist/s of songs, that requiere you to login with a username and password.
 User: admin 
 Password: admin
 
