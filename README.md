@@ -23,7 +23,7 @@ This project is developed with android studio (java). I've used this extra clase
 
 * SQLiteDatabase for the local storage
 * Fragment Manager
-* Aquí cal especificar totes les classes utilitzades
+* Aquí hay especificar totes les classes utilitzades
 
 ## App access
 
