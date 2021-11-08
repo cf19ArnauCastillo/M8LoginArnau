@@ -1,10 +1,10 @@
 package com.example.LoginArnau.Model;
 
 public class Song {
-    public String artista;
     public String nombre;
+    public String artista;
 
-    public Song(String nombre) {
+    public Song(String nombre,String artista) {
         this.artista = artista;
         this.nombre = nombre;
     }

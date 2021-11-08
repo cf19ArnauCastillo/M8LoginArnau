@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Arnau/StudioProjects/M8LoginArnau/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Arnau/StudioProjects/M8LoginArnau/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Arnau/StudioProjects/M8LoginArnau/app/src/main/res/layout/fragment_form.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Arnau/StudioProjects/M8LoginArnau/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Arnau/StudioProjects/M8LoginArnau/app/src/main/res/layout/fragment_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Arnau/StudioProjects/M8LoginArnau/app/src/main/res/layout/item_list.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/drawable-v24/ic_email_focused.xml" value="0.21875" />
         <entry key="app/src/main/res/drawable-v24/ic_lock_focused.xml" value="0.21875" />
         <entry key="app/src/main/res/drawable/custom_email_icon.xml" value="0.21875" />

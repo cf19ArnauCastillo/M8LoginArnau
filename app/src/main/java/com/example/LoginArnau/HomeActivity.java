@@ -38,7 +38,7 @@ public class HomeActivity extends AppCompatActivity {
                     break;
 
                 case R.id.nav_list:
-                    selectedFragment = new ListFragment();
+                    selectedFragment = new ListFragment(dbHelper, db);
                     break;
 
                 case R.id.nav_add:
