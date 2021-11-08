@@ -29,6 +29,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.userName.setText(array_songs.get(position).getNombre());
+        holder.artistName.setText(array_songs.get(position).getArtista());
     }
 
     // It tells us how many items it will need to iterate from the list
@@ -40,10 +41,12 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     // Link items in the item_list to the RecyclerView
     public class ViewHolder extends RecyclerView.ViewHolder{
         TextView userName;
+        TextView artistName;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             userName = itemView.findViewById(R.id.userName);
+            artistName = itemView.findViewById(R.id.artistName);
         }
     }
 }
