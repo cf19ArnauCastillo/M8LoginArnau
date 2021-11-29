@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/drawable/custom_email_icon.xml" value="0.21875" />
         <entry key="app/src/main/res/drawable/custom_input.xml" value="0.21875" />
         <entry key="app/src/main/res/drawable/custom_lock_icon.xml" value="0.21875" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.21875" />
         <entry key="app/src/main/res/drawable/ic_llistat.xml" value="0.21875" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.20260416666666667" />
         <entry key="app/src/main/res/layout/activity_llista.xml" value="0.20260416666666667" />
